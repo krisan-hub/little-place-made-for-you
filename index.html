@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#211538" />
+  <meta name="description" content="A little romantic corner of the internet, made just for you." />
+  <title>A Little Place Made Just for You 💜</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient-glow glow-one" aria-hidden="true"></div>
+  <div class="ambient-glow glow-two" aria-hidden="true"></div>
+  <div id="floating-sky" class="floating-sky" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Back to the beginning">
+      <span class="brand-heart">♥</span>
+      <span>just for you</span>
+    </a>
+    <a class="top-link" href="#love-letter">A little surprise <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <p class="eyebrow"><span class="eyebrow-star">✦</span> A tiny corner of the universe <span class="eyebrow-star">✦</span></p>
+      <div class="hero-heart" aria-hidden="true">
+        <span class="heart-halo"></span>
+        <span class="big-heart">♥</span>
+        <span class="orbit orbit-one">✦</span>
+        <span class="orbit orbit-two">✧</span>
+        <span class="orbit orbit-three">·</span>
+      </div>
+      <h1>Hi, <span class="lavender-text">My Love.</span></h1>
+      <p class="hero-copy">
+        I made this little place just for you — a reminder that even on ordinary days,
+        you make my world feel a little more magical.
+      </p>
+      <a class="primary-button" href="#love-letter">Open your little surprise <span>♡</span></a>
+      <p class="tiny-note">made with a little code & a whole lot of love</p>
+      <a class="scroll-cue" href="#love-letter" aria-label="Scroll to the love letter"><span></span> scroll a little</a>
+    </section>
+
+    <section class="content-section section-shell" id="love-letter">
+      <div class="section-heading">
+        <p class="eyebrow">01 / A message from my heart</p>
+        <h2>A letter, <span class="lavender-text">just for you.</span></h2>
+        <p>Tap the envelope when you're ready. There's something I want you to know.</p>
+      </div>
+
+      <div class="letter-area">
+        <button class="envelope-button" id="envelope-button" type="button" aria-expanded="false" aria-controls="letter-paper">
+          <span class="envelope-glow"></span>
+          <span class="letter-paper" id="letter-paper">
+            <span class="paper-top">To: My Love ♡</span>
+            <span class="paper-lines">A little note<br />for my favorite person</span>
+            <span class="paper-heart">♥</span>
+          </span>
+          <span class="envelope-back"></span>
+          <span class="envelope-front"></span>
+          <span class="envelope-flap"></span>
+          <span class="envelope-seal">♥</span>
+        </button>
+        <p class="interaction-hint" id="envelope-hint">Tap the envelope to open your letter ✨</p>
+      </div>
+
+      <article class="love-letter hidden" id="love-letter-message" aria-live="polite">
+        <div class="letter-card-top"><span>✦ A note for you ✦</span><span>♡</span></div>
+        <h3>My dearest My Love,</h3>
+        <p>
+          If I could give you one thing, it would be the chance to see yourself through my eyes.
+          Maybe then you'd understand how special you are to me.
+        </p>
+        <p>
+          Thank you for being you — for the little things you do, the moments you make brighter,
+          and the comfort you bring just by being around. You don't have to be perfect or have
+          everything figured out. You are already someone worth caring for, choosing, and
+          appreciating.
+        </p>
+        <p>
+          Whenever life feels heavy, I hope you remember that you matter so much. I may not
+          always find the perfect words, but I hope my actions keep reminding you that you are
+          loved. If I could choose again, I'd still be happy to choose you. 💜
+        </p>
+        <p class="letter-signoff">Always cheering for you,<br /><span>Someone who loves you ♡</span></p>
+      </article>
+    </section>
+
+    <section class="content-section reasons-section section-shell" id="reasons">
+      <div class="section-heading">
+        <p class="eyebrow">02 / Little things I adore</p>
+        <h2>A jar full of <span class="lavender-text">reasons.</span></h2>
+        <p>Whenever you need a little reminder, pick a heart and let it tell you something sweet.</p>
+      </div>
+
+      <div class="jar-layout">
+        <div class="jar-illustration" aria-label="A decorative purple jar filled with hearts">
+          <div class="jar-lid"></div>
+          <div class="jar-neck"></div>
+          <div class="jar-body">
+            <span class="jar-shine"></span>
+            <span class="jar-heart jh-one">♥</span>
+            <span class="jar-heart jh-two">♥</span>
+            <span class="jar-heart jh-three">♥</span>
+            <span class="jar-heart jh-four">♥</span>
+            <span class="jar-heart jh-five">♥</span>
+            <span class="jar-star js-one">✦</span>
+            <span class="jar-star js-two">✧</span>
+            <span class="jar-label">reasons<br />I adore you</span>
+          </div>
+          <p class="jar-caption">a little love, saved up for you</p>
+        </div>
+
+        <div class="reason-panel">
+          <div class="reason-count"><span class="count-dot"></span> A tiny reminder, just for you</div>
+          <div class="reason-note" id="reason-note" aria-live="polite">
+            <span class="note-heart">♡</span>
+            <p>There are so many reasons to love you. Pick a heart to discover one.</p>
+          </div>
+          <button class="primary-button draw-button" id="draw-reason" type="button">Pick a little heart <span>♡</span></button>
+          <p class="tiny-note">there's always another reason</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing section-shell">
+      <div class="closing-sparkle" aria-hidden="true">✦</div>
+      <p class="eyebrow">one last little thing</p>
+      <h2>In a universe full of stars,<br /><span class="lavender-text">I'm glad you exist.</span></h2>
+      <p class="closing-copy">Whatever today brings, I hope a little bit of this love stays with you.</p>
+      <div class="closing-heart" aria-hidden="true">♥</div>
+      <p class="closing-signoff">with love, always <span>♡</span></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>made especially for My Love</span>
+    <span class="footer-sparkle">✦</span>
+    <span>with love, in lavender</span>
+  </footer>
+</body>
+</html>
